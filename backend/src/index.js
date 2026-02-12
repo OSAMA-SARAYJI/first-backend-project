@@ -7,7 +7,7 @@ dotenv.config({
 }); // Load environment variables from .env file
 
 const startServer = async () => {
-    console.log(process.env.MONGODB_URI); // debugging: log the MongoDB URI to ensure it's loaded correctly
+    // console.log(process.env.MONGODB_URI); // debugging: log the MongoDB URI to ensure it's loaded correctly
 
     try {
         await connectDB(); // Connect to the database
